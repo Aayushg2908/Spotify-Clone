@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spotify</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="spotify" />Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+    <div class="container">
+        <div class="songList">
+          <h1>Best of NCS - No copyright sounds</h1>
+          <div class="songItemContainer">
+            <div class="songItem">
+                <img src="covers/1.jpg" alt="1">
+                <span>Warriyo - Mortals [NCS Release]</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="0" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/2.jpg" alt="1">
+                <span>Cielo - Huma-Huma</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="1" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/3.jpg" alt="1">
+                <span>DEAF KEV - Invincible [NCS Release]</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="2" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/4.jpg" alt="1">
+                <span>Different Heaven & EH!DE - My Heart</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="3" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/5.jpg" alt="1">
+                <span>Janji-Heroes-Tonight-feat-Johnning</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="4" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/6.jpg" alt="1">
+                <span>Rabba - Salam-e-Ishq</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="5" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/7.jpg" alt="1">
+                <span>Sakhiyaan - Salam-e-Ishq</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="6" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/8.jpg" alt="1">
+                <span>Bhula Dena - Salam-e-Ishq</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="7" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/9.jpg" alt="1">
+                <span>Tumhari Kasam - Salam-e-Ishq</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="8" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+            <div class="songItem">
+                <img src="covers/10.jpg" alt="1">
+                <span>Na Jaana - Salam-e-Ishq</span>
+                <span class="songListPlay"><span class="timeStamp"><i id="9" class="fa-solid songItemPlay fa-circle-play" style="color: #4fdd59;"></i> </span> </span>
+            </div>
+          </div>
+      </div>
+      <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+      <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100" />
+      <div class="icons">
+        <i class="fa-solid fa-3x fa-step-backward" id="previous" style="color: #4fdd59;"></i>
+        <i class="fa-solid fa-3x fa-circle-play" id="masterPlay" style="color: #4fdd59;"></i>
+        <i class="fa-solid  fa-3x fa-step-forward" id="next" style="color: #4fdd59;"></i>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" id="gif" width="50px" alt=""> <span id="masterSongName"></span>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/ba181abd7c.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
